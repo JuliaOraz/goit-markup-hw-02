@@ -21,7 +21,11 @@ body {
   color: var(--primary-color-text);
   background-color: var(--primary-color-white);
 }
+.list-none {
+  list-style: none;
+}
 
+/* logo */
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -31,9 +35,6 @@ body {
 }
 .logo span {
   color: var(--accent-color);
-}
-.list-none {
-  list-style: none;
 }
 
 /* header */
@@ -78,8 +79,6 @@ body {
 .footer-list {
 }
 .footer-item .footer-link {
-  font-size: 14px;
-  line-height: 1.71;
   font-style: normal;
   text-decoration: none;
   color: var(--additional-color-text);
@@ -164,4 +163,41 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+}
+
+/* portfolio */
+.portfolio {
+}
+.portfolio-group {
+}
+.portfolio-btn {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--secondary-color-text);
+  background-color: var(--primary-color-bg);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--primary-color-white);
+  background-color: var(--accent-color);
+}
+.portfolio-list a {
+  text-decoration: none;
+}
+.portfolio-list h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color-text);
+}
+.portfolio-list p {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-color-text);
 }
